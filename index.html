@@ -1,6 +1,8 @@
 <html>
 <head>
   <title>Hotkey Test</title>
+
+<link rel="stylesheet" type="text/css" href="bower_components/angular-hotkeys/build/hotkeys.css" />
 </head>
 
 <body ng-app="hotkeys">
@@ -9,8 +11,11 @@ Testing hotkeys
 
 <div ng-view></div>
 
+<a href="./#/page1">Page 1</a> | <a href="./#/page2">Page 2</a>
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+<script type="text/javascript" src="bower_components/angular-hotkeys/build/hotkeys.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 <script src="js/controllers/pageOneController.js"></script>
 <script src="js/controllers/pageTwoController.js"></script>
